@@ -34,7 +34,7 @@ cacheSolve <- function(x, ...) {
   ## checks for cache value for inverse of n, if present, returns n
   n <- x$getInverse()
   if (!is.null(n)){
-    message("getting cahced data")
+    message("getting cached data")
     return(n)
   }
   ## if no cached value for inverse of x, solves for inverse of x, stores as n in cache
